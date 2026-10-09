@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "harupyeon-65-print-email-calendar-20261009-r1",
-  "publishedAt": "2026-10-09T00:00:00Z",
+  "revision": "harupyeon-65-kosaf-duplicate-support-link-20261009-r1",
+  "publishedAt": "2026-10-09T07:55:00Z",
   "categories": [
     {
       "id": "highschool",
@@ -20309,7 +20309,7 @@
         },
         {
           "title": "한국장학재단 중복지원 제한",
-          "url": "https://www.kosaf.go.kr/ko/tuition.do?pg=tuition04_03&ttab1=1"
+          "url": "https://www.kosaf.go.kr/ko/tuition.do?naviParam=JH,08,01,00&pg=tuition11_01_01&type=scholar"
         },
         {
           "title": "한국장학재단 초과지원 반환·상환 안내",
@@ -20791,7 +20791,7 @@
           "links": [
             {
               "title": "한국장학재단 중복지원 제한",
-              "url": "https://www.kosaf.go.kr/ko/tuition.do?pg=tuition04_03&ttab1=1"
+              "url": "https://www.kosaf.go.kr/ko/tuition.do?naviParam=JH,08,01,00&pg=tuition11_01_01&type=scholar"
             }
           ],
           "id": "scholarship-49"
