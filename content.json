@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "harupyeon-62-work-call-library-return-20261008-r1",
-  "publishedAt": "2026-10-08T07:18:57.514Z",
+  "revision": "harupyeon-65-print-email-calendar-20261009-r1",
+  "publishedAt": "2026-10-09T00:00:00Z",
   "categories": [
     {
       "id": "highschool",
@@ -30580,6 +30580,815 @@
           "id": "library-return-verification",
           "type": "paragraph",
           "text": "출처 확인일: 2026년 10월 8일. 링크한 공공·대학도서관의 공식 안내를 확인해 작성했어요. 기관별 사례 외의 확인 순서, 대화문, 개인정보 주의사항은 하루편이 구성한 실용 안내예요. 예시 기관의 횟수·비용·휴관일 처리를 다른 도서관에 그대로 적용하지 말고, 실제 반납 전에는 내 도서관의 최신 안내를 확인하세요."
+        }
+      ]
+    },
+    {
+      "id": "uni-public-pc-printing",
+      "categoryId": "university",
+      "title": "공용 PC에서 서류를 출력했다면, 파일과 로그인도 챙겨요",
+      "summary": "도서관·복사집에서 출력할 때 남기기 쉬운 PDF, 로그인, 여분 출력물을 따로 확인하는 순서와 이미 자리를 떠났을 때의 대처를 알아봐요.",
+      "readingMinutes": 7,
+      "tags": [
+        "공용PC",
+        "서류출력",
+        "개인정보",
+        "대학생활"
+      ],
+      "updatedAt": "2026-10-09",
+      "verifiedAt": "2026-10-09",
+      "sources": [
+        {
+          "title": "Google: 본인 소유가 아닌 기기에 로그인",
+          "url": "https://support.google.com/accounts/answer/2917834?hl=ko&ref_topic=7189123"
+        },
+        {
+          "title": "Chrome: 시크릿 모드에서 남는 정보",
+          "url": "https://support.google.com/chrome/answer/95464?hl=ko"
+        },
+        {
+          "title": "Google: 로그인 기기와 세션 확인",
+          "url": "https://support.google.com/accounts/answer/3067630?hl=ko_ALL"
+        },
+        {
+          "title": "Google: 로그인·로그아웃 상태 관리",
+          "url": "https://support.google.com/accounts/answer/54490?hl=ko"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "public-pc-01",
+          "type": "paragraph",
+          "text": "도서관이나 학교 전산실에서 서류 한 장만 출력하려고 로그인했다가, 급히 나오느라 계정을 열어 두기 쉬워요. 인쇄가 끝났다고 정리가 끝난 것은 아니에요. 종이, 내려받은 파일, 로그인 상태를 각각 확인하면 빠뜨릴 일이 줄어듭니다. 이 글은 서류의 발급 요건이 아니라, 공용 컴퓨터에서 내 자료를 남기지 않도록 작업을 마무리하는 방법을 다뤄요."
+        },
+        {
+          "id": "public-pc-02",
+          "type": "callout",
+          "text": "핵심부터 기억하세요. 시크릿 창을 닫아도 내려받은 PDF 파일은 자동으로 지워지지 않아요. 그리고 계정을 로그아웃해도 이미 출력된 종이나 저장된 파일까지 회수되는 것은 아니에요."
+        },
+        {
+          "id": "public-pc-03",
+          "type": "heading",
+          "text": "1. 로그인하기 전에 출력 방법부터 물어보세요"
+        },
+        {
+          "id": "public-pc-04",
+          "type": "paragraph",
+          "text": "공용 PC는 여러 사람이 함께 쓰는 컴퓨터를 말해요. 도서관 PC, 복사집 PC, 학교 공용 실습실 PC가 여기에 들어가요. 먼저 직접 USB로 출력하는지, 지정된 프로그램에 올리는지, 직원에게 파일을 맡기는지 확인하세요. 출력 방식이 정해져 있다면 그 방식 안에서 꼭 필요한 파일만 전달하면 돼요."
+        },
+        {
+          "id": "public-pc-05",
+          "type": "paragraph",
+          "text": "직원에게는 이렇게 물어볼 수 있어요. “개인정보가 있는 서류인데, 출력 후 파일은 어떻게 삭제되나요? 제가 직접 출력하고 파일을 정리할 수 있을까요?” 기기에 접근할 수 없거나 업체가 파일을 보관한다면, 보관 기간과 삭제 요청 방법을 먼저 확인하세요. 주민등록번호가 있는 자료라면 편리하다는 이유만으로 개인 메신저나 모르는 업로드 사이트에 보내지 마세요."
+        },
+        {
+          "id": "public-pc-06",
+          "type": "paragraph",
+          "text": "아직 파일을 준비하지 않았다면 제출처가 요구하는 범위만 표시되도록 발급 옵션을 확인하세요. 다만 필수 정보를 임의로 가리면 접수가 안 될 수 있으니, 필요한 표시 범위는 제출처 안내를 따르세요. 이 글의 정리 순서는 개인정보가 없는 과제나 발표 자료를 출력할 때도 그대로 활용할 수 있어요."
+        },
+        {
+          "id": "public-pc-07",
+          "type": "heading",
+          "text": "2. 내 브라우저 환경을 공용 PC에 옮기지 마세요"
+        },
+        {
+          "id": "public-pc-08",
+          "type": "paragraph",
+          "text": "Chrome에서 Google 계정에 잠깐 접속할 때는 오른쪽 위 프로필 메뉴의 게스트 모드를 이용할 수 있어요. 게스트 모드는 다른 사용자의 평소 브라우저 환경과 나의 임시 사용을 구분하는 기능이에요. 사용을 마치면 게스트 창을 닫으세요. 공용 PC 관리 정책에 따라 이 메뉴가 없거나 사용할 수 없을 수도 있어요.",
+          "links": [
+            {
+              "title": "공용 기기에서 Google 계정을 사용하는 공식 방법 확인",
+              "url": "https://support.google.com/accounts/answer/2917834?hl=ko&ref_topic=7189123"
+            }
+          ]
+        },
+        {
+          "id": "public-pc-09",
+          "type": "paragraph",
+          "text": "시크릿 모드는 방문 기록이나 사이트 데이터가 기기에 남는 범위를 줄이는 브라우저 기능이에요. 하지만 악성 프로그램을 검사해 주거나 주변 사람이 화면을 보는 것을 막는 기능은 아니에요. 기기 자체를 신뢰하기 어렵다면 중요한 서류 작업은 다른 기기로 옮기는 편이 낫습니다."
+        },
+        {
+          "id": "public-pc-10",
+          "type": "list",
+          "items": [
+            "비밀번호 저장이나 자동 로그인 제안은 공용 PC에서는 선택하지 마세요.",
+            "브라우저 전체에 내 계정을 추가하거나 동기화를 켜는 대신, 필요한 웹사이트만 잠깐 이용하세요.",
+            "학교나 회사 보안 프로그램이 막는 기능은 임의로 해제하지 말고 담당자에게 허용된 출력 방법을 물어보세요.",
+            "잠깐 자리를 비워야 한다면 먼저 계정과 문서를 닫고, 출력물도 챙기세요."
+          ]
+        },
+        {
+          "id": "public-pc-11",
+          "type": "heading",
+          "text": "3. 인쇄 전에는 페이지 수와 출력 장치를 함께 봐요"
+        },
+        {
+          "id": "public-pc-12",
+          "type": "paragraph",
+          "text": "예를 들어 3쪽짜리 서류를 1부 출력한다면, 미리보기에서 세 페이지가 모두 보이는지 확인하세요. 프린터 이름, 필요한 페이지 범위, 부수, 단면·양면을 차례로 살펴보면 돼요. 제출 서류에 단면 출력 지시가 있으면 그 지시가 우선이에요. 단순히 3쪽이라는 이유만으로 3장을 반드시 써야 한다는 뜻은 아니에요."
+        },
+        {
+          "id": "public-pc-13",
+          "type": "paragraph",
+          "text": "인쇄 버튼을 눌렀는데 종이가 나오지 않는다고 여러 번 누르지는 마세요. 앞선 작업이 뒤늦게 출력되면서 같은 개인정보 서류가 여러 부 나올 수 있어요. 프린터 상태나 인쇄 대기열을 확인하고, 공용 장비라면 직원에게 내 작업이 접수됐는지 물어보세요. 대기열은 인쇄를 기다리는 작업의 목록이에요. 다른 사람의 작업까지 전체 취소하거나 장비 설정을 바꾸지는 마세요."
+        },
+        {
+          "id": "public-pc-14",
+          "type": "paragraph",
+          "text": "종이를 받으면 첫 장만 보지 말고 순서와 마지막 장까지 확인하세요. 잘못 출력한 종이, 양면 인쇄의 뒷면, 출력대에 섞인 여분도 확인하면 좋아요. 개인정보가 있는 오출력물은 그대로 휴지통에 넣기보다 시설의 문서 파쇄 방법을 물어보세요."
+        },
+        {
+          "id": "public-pc-15",
+          "type": "heading",
+          "text": "4. 파일과 로그인을 따로 정리하세요"
+        },
+        {
+          "id": "public-pc-16",
+          "type": "paragraph",
+          "text": "다운로드는 인터넷에 있는 파일을 컴퓨터에 저장하는 일이에요. 화면에서 PDF를 닫아도 다운로드 폴더에 사본이 남아 있을 수 있어요. Chrome 공식 설명에서도 시크릿 모드로 내려받은 파일은 모드를 종료한 뒤에도 남는다고 안내해요. 브라우저의 다운로드 목록을 지우는 일과 실제 PDF 파일을 삭제하는 일도 구분해야 해요.",
+          "links": [
+            {
+              "title": "시크릿 모드에서 남는 파일과 기록 확인",
+              "url": "https://support.google.com/chrome/answer/95464?hl=ko"
+            }
+          ]
+        },
+        {
+          "id": "public-pc-17",
+          "type": "steps",
+          "items": [
+            "인쇄를 마친 PDF와 문서 프로그램을 닫으세요.",
+            "다운로드 폴더나 직접 지정한 저장 위치에서 이번에 내려받은 내 파일만 확인하세요. 공용 폴더 전체를 지우면 다른 사람의 자료가 사라질 수 있어요.",
+            "필요한 원본이 내 계정이나 개인 기기에 안전하게 있는지 확인한 뒤 공용 PC의 사본을 정리하세요. 휴지통 처리 등 추가 정리는 시설 정책에 맞춰 직원에게 확인하세요.",
+            "메일·드라이브·발급 사이트에서 각각 로그아웃하세요. 한 사이트를 나갔다고 다른 서비스까지 모두 종료됐다고 가정하지 마세요.",
+            "사용한 게스트 창 또는 모든 시크릿 창을 닫으세요. 창 하나만 닫고 다른 창을 남겨 두지 않았는지 확인하세요.",
+            "출력물, USB, 휴대전화 등 챙길 것을 확인하고 자리를 떠나세요."
+          ],
+          "links": [
+            {
+              "title": "공용 기기에서 로그아웃 상태를 유지하는 공식 안내",
+              "url": "https://support.google.com/accounts/answer/54490?hl=ko"
+            }
+          ]
+        },
+        {
+          "id": "public-pc-18",
+          "type": "paragraph",
+          "text": "이 순서는 일상적인 노출을 줄이는 점검법이에요. 파일을 삭제했다는 사실만으로 저장장치에서 기술적으로 완전 복구 불가능하게 지워졌다고 보장할 수는 없어요. 민감한 원본을 공용 PC에 저장하기 어려운 상황이라면, 처음부터 기관이 안내하는 안전한 제출·출력 경로를 선택하세요."
+        },
+        {
+          "id": "public-pc-19",
+          "type": "heading",
+          "text": "5. 이미 나왔는데 로그아웃이 걱정된다면"
+        },
+        {
+          "id": "public-pc-20",
+          "type": "paragraph",
+          "text": "우선 내 휴대전화처럼 신뢰하는 기기에서 계정 상태를 확인하세요. Google 계정은 보안 및 로그인 → 내 기기 → 모든 기기 관리에서 기기나 세션을 확인하고 로그아웃할 수 있어요. 세션은 한 기기의 브라우저나 앱에 로그인해 사용하는 연결을 뜻해요. 한 컴퓨터에서도 브라우저나 앱에 따라 여러 세션이 보일 수 있습니다.",
+          "links": [
+            {
+              "title": "Google 계정의 기기·세션 확인과 원격 로그아웃 방법",
+              "url": "https://support.google.com/accounts/answer/3067630?hl=ko_ALL"
+            }
+          ]
+        },
+        {
+          "id": "public-pc-21",
+          "type": "paragraph",
+          "text": "기기 이름과 사용 시각을 보고 내가 이용한 공용 PC에 해당하는 항목을 확인하세요. 같은 기기 이름으로 여러 세션이 보이면 세부정보를 확인하고, 그 공용 기기에 해당하는 세션을 모두 로그아웃하세요. 위치가 대략적으로 표시되거나 백그라운드 통신 때문에 최근 시각이 보일 수도 있으니, 위치 한 줄만 보고 침입이라고 단정하지는 마세요. 모르는 활동이 실제로 발견되면 해당 서비스의 공식 계정 보호 절차를 따르세요."
+        },
+        {
+          "id": "public-pc-22",
+          "type": "paragraph",
+          "text": "원격 로그아웃은 로그인 접근을 끊는 조치예요. 이미 그 PC에 내려받은 파일이나 프린터에 남은 종이를 지우는 기능은 아니에요. 파일을 두고 나왔다면 시설에 연락해 이용 시간·좌석·파일명을 필요한 범위에서 설명하고 정리를 요청하세요. 이때 파일 본문이나 주민등록번호를 다시 보내서 상황을 설명할 필요는 없어요."
+        },
+        {
+          "id": "public-pc-23",
+          "type": "callout",
+          "text": "그대로 쓸 수 있는 말: “오늘 오후에 공용 PC를 이용했는데 다운로드 폴더에 제 문서가 남았을 수 있어요. 해당 좌석의 파일과 출력물 확인을 부탁드려도 될까요?” 시설이 본인 확인을 요구하면 공식 절차에 따라 필요한 정보만 제공하세요."
+        },
+        {
+          "id": "public-pc-24",
+          "type": "heading",
+          "text": "자리를 뜨기 전 마지막 30초"
+        },
+        {
+          "id": "public-pc-25",
+          "type": "checklist",
+          "items": [
+            "출력한 문서의 첫 장부터 마지막 장까지 확인했어요.",
+            "여분과 오출력물을 회수했어요.",
+            "내가 저장한 파일을 확인하고 시설 규정에 맞게 정리했어요.",
+            "로그아웃한 뒤 게스트·시크릿 창을 모두 닫았어요.",
+            "USB와 개인 물품을 챙겼어요."
+          ]
+        },
+        {
+          "id": "public-pc-26",
+          "type": "paragraph",
+          "text": "확인일: 2026년 10월 9일. Google 공식 도움말을 바탕으로 작성했으며, 화면 이름과 공용 PC의 이용 정책은 기기·기관에 따라 달라질 수 있어요. 특정 시설의 삭제나 보안 상태를 보장하는 글은 아니에요."
+        }
+      ]
+    },
+    {
+      "id": "job-email-attachment-check",
+      "categoryId": "firstjob",
+      "title": "메일에 파일을 보냈는데 열리지 않는다고 할 때",
+      "summary": "첨부 사본과 공유 링크를 구분하고, 수신자 계정·권한·파일 버전을 확인한 뒤 안전하게 다시 보내는 순서를 알아봐요.",
+      "readingMinutes": 10,
+      "tags": [
+        "직장생활",
+        "이메일",
+        "첨부파일",
+        "공유권한"
+      ],
+      "featured": false,
+      "updatedAt": "2026-10-09",
+      "verifiedAt": "2026-10-09",
+      "sources": [
+        {
+          "title": "Google Gmail 고객센터: 첨부파일 크기와 전송 방식",
+          "url": "https://support.google.com/mail/answer/6584?hl=ko"
+        },
+        {
+          "title": "Google Gmail 고객센터: Drive 파일을 보내는 방식과 공유 설정",
+          "url": "https://support.google.com/mail/answer/2487407?hl=ko"
+        },
+        {
+          "title": "Google Drive 고객센터: 특정 사용자 공유와 권한",
+          "url": "https://support.google.com/drive/answer/2494822?hl=ko"
+        },
+        {
+          "title": "Google Docs 편집기 고객센터: 파일 액세스와 계정 확인",
+          "url": "https://support.google.com/docs/answer/16722399?hl=ko"
+        },
+        {
+          "title": "Microsoft 지원: Outlook 첨부파일과 OneDrive 링크 보내기",
+          "url": "https://support.microsoft.com/en-us/outlook/mail/add-pictures-or-attach-files-to-emails-in-outlook"
+        },
+        {
+          "title": "Microsoft 지원: 문서 검사로 숨은 데이터와 개인정보 확인하기",
+          "url": "https://support.microsoft.com/en-gb/office/collab-files/remove-hidden-data-and-personal-information-by-inspecting-documents-presentations-or-workbooks?nochrome=true"
+        },
+        {
+          "title": "Google Drive 고객센터: 공유 중지와 복사 제한의 범위",
+          "url": "https://support.google.com/drive/answer/2494893?hl=ko"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "email-attachment-intro",
+          "type": "paragraph",
+          "text": "“파일이 안 열려요”라는 답장을 받았다면 같은 메일을 그대로 다시 보내기 전에, 상대가 어디에서 막혔는지부터 확인해요. 파일 자체가 없는지, 링크에서 권한을 요구하는지, 내려받은 파일을 앱이 읽지 못하는지에 따라 고칠 곳이 달라요. 보낸편지함에서 실제 발송된 메일을 열고 순서대로 확인하면 돼요."
+        },
+        {
+          "id": "email-attachment-scope",
+          "type": "paragraph",
+          "text": "이 글은 첫 업무메일에서 자주 만나는 첨부파일·Google Drive·OneDrive 링크 문제를 다뤄요. 2026년 10월 9일 확인한 공식 안내를 바탕으로 썼고, 메뉴 이름과 사용 가능한 기능은 앱 버전·계정·회사 정책에 따라 달라질 수 있어요. 예문과 파일명은 모두 가상 예시예요. 회사가 정한 파일 전달·외부 공유 절차를 먼저 따라요."
+        },
+        {
+          "id": "email-attachment-diagnose-heading",
+          "type": "heading",
+          "text": "1. “안 열린다”를 네 가지 상황으로 나눠요"
+        },
+        {
+          "id": "email-attachment-diagnose-list",
+          "type": "list",
+          "items": [
+            "메일에 파일이나 링크가 없어요: 보낸편지함에서 첨부 누락 여부를 확인해요. 작성창에 올리려던 파일과 실제 발송된 파일은 다를 수 있어요.",
+            "링크를 눌렀더니 “액세스 권한 필요”가 나와요: 공유 대상 주소, 로그인한 계정, 회사의 외부 공유 제한을 확인해요.",
+            "다운로드는 됐는데 파일이 안 열려요: 파일 형식, 사용하는 앱, 파일 손상 가능성, 보안 차단 문구를 확인해요.",
+            "파일은 열리지만 내용이 예전 것이에요: 첨부한 사본과 공유 문서 중 어느 것을 보냈는지, 필요한 수정이 실제 배포본에 들어 있는지 확인해요."
+          ]
+        },
+        {
+          "id": "email-attachment-diagnose-question",
+          "type": "paragraph",
+          "text": "처음에는 “첨부가 보이지 않는지, 링크를 누르면 권한 요청이 뜨는지 알려 주실 수 있을까요?”처럼 범위를 좁혀 물어봐요. 화면이 필요하면 오류 문구가 있는 부분만 부탁하세요. 메일함 전체, 다른 고객 이름, 문서 본문이 함께 보이는 캡처는 받을 필요가 없어요. 비밀번호나 인증번호도 요청하지 마세요."
+        },
+        {
+          "id": "email-attachment-copy-link-heading",
+          "type": "heading",
+          "text": "2. 첨부한 사본인지 원본으로 가는 링크인지 봐요"
+        },
+        {
+          "id": "email-attachment-copy-link-copy",
+          "type": "paragraph",
+          "text": "일반 첨부파일은 그 시점의 파일 사본을 메일에 넣어 보내는 방식이에요. 발송한 뒤 내 컴퓨터에서 원본을 수정해도 이미 보낸 사본은 바뀌지 않아요. Outlook 공식 안내도 사본으로 보낸 파일의 수정 내용이 OneDrive·SharePoint 원본과 동기화되지 않는다고 설명해요. 숫자를 고친 뒤 예전 첨부 메일만 다시 전달했다면 수정본이 전해진 것이 아니에요.",
+          "links": [
+            {
+              "title": "Microsoft 지원: Outlook 첨부파일과 OneDrive 링크 보내기",
+              "url": "https://support.microsoft.com/en-us/outlook/mail/add-pictures-or-attach-files-to-emails-in-outlook"
+            }
+          ]
+        },
+        {
+          "id": "email-attachment-copy-link-link",
+          "type": "paragraph",
+          "text": "Drive나 OneDrive 링크는 온라인에 있는 문서로 들어가는 주소예요. 공동으로 내용을 고칠 때 편하지만, 링크를 아는 것과 열 수 있는 권한은 따로 확인해야 해요. 또 같은 이름의 파일을 새로 만들었다면 이전 링크가 새 파일을 가리킨다고 생각하지 마세요. 보낸 메일의 링크를 직접 눌러 제목과 본문을 확인해요."
+        },
+        {
+          "id": "email-attachment-copy-link-choice",
+          "type": "list",
+          "items": [
+            "상대가 제출 시점의 내용을 보관해야 해요: 회사가 허용하는 형식의 배포용 사본을 준비하고 기준 날짜·버전을 적어요.",
+            "같은 문서에서 계속 검토해야 해요: 회사에서 쓰는 공유 문서 링크를 보내고 필요한 보기·댓글·편집 권한을 정해요.",
+            "첨부와 링크를 함께 보내요: “첨부 PDF는 이번 검토본, 링크는 이후 수정사항 반영용”처럼 각 자료의 용도를 분명히 써요."
+          ]
+        },
+        {
+          "id": "email-attachment-gmail-size",
+          "type": "paragraph",
+          "text": "개인 Gmail 계정은 첨부파일 크기 제한이 25MB예요. 직장·학교 계정은 Google Workspace 관리자가 전송·수신 제한을 설정해요. 공식 안내에 따르면 총 첨부 크기가 제한을 넘으면 Gmail이 첨부파일 대신 Drive 링크를 넣어요. 파일을 끌어 넣었더라도 발송 직전에는 어떤 방식으로 표시되는지 확인하세요.",
+          "links": [
+            {
+              "title": "Google Gmail 고객센터: 첨부파일 크기와 전송 방식",
+              "url": "https://support.google.com/mail/answer/6584?hl=ko"
+            }
+          ]
+        },
+        {
+          "id": "email-attachment-gmail-drive",
+          "type": "paragraph",
+          "text": "Gmail의 Drive 파일 삽입 화면에서는 링크와 첨부파일을 구분해요. Google 문서·스프레드시트·프레젠테이션 등으로 만든 파일은 해당 삽입 기능에서 일반 첨부파일로 선택할 수 없고 링크로 보낼 수 있어요. 사본 제출이 필요하다면 회사가 허용한 형식으로 내보낸 결과물을 열어 확인한 뒤 첨부하세요.",
+          "links": [
+            {
+              "title": "Google Gmail 고객센터: Drive 파일을 보내는 방식과 공유 설정",
+              "url": "https://support.google.com/mail/answer/2487407?hl=ko"
+            }
+          ]
+        },
+        {
+          "id": "email-attachment-permissions-heading",
+          "type": "heading",
+          "text": "3. 권한은 실제 수신자 주소에 맞춰요"
+        },
+        {
+          "id": "email-attachment-permissions-start",
+          "type": "paragraph",
+          "text": "내 화면에서 링크가 열리는 것만으로 수신자의 접근을 확인할 수는 없어요. 나는 소유자이거나 이미 권한을 가진 사람이기 때문이에요. 로그인하지 않은 창에서 안 열리는 것도, 특정 계정만 허용한 파일이라면 정상일 수 있어요. 시험 삼아 업무파일을 개인 계정으로 보내지 말고 공유 설정과 승인된 수신자 계정을 대조해요."
+        },
+        {
+          "id": "email-attachment-permissions-steps",
+          "type": "steps",
+          "items": [
+            "보낸편지함에서 실제 링크를 열어 공유할 파일이 맞는지 확인해요. 비슷한 이름의 폴더나 작업 중인 원본을 보냈는지도 살펴요.",
+            "파일의 공유 설정을 열고 메일의 받는 사람 주소와 허용된 사용자 주소를 대조해요. 자동완성된 동명이인이나 예전 주소를 선택하지 않았는지 확인하세요.",
+            "승인된 수신자에게 필요한 수준만 지정해요. 읽기만 필요하면 뷰어, 의견을 남겨야 하면 댓글 작성자, 내용을 직접 바꿔야 하면 편집자를 검토해요.",
+            "적용 후 공유 설정을 다시 열어 주소와 권한이 반영됐는지 확인해요. 수신자에게는 공유받은 계정으로 링크를 다시 열어 달라고 안내해요."
+          ],
+          "links": [
+            {
+              "title": "Google Drive 고객센터: 특정 사용자 공유와 권한",
+              "url": "https://support.google.com/drive/answer/2494822?hl=ko"
+            },
+            {
+              "title": "Google Docs 편집기 고객센터: 파일 액세스와 계정 확인",
+              "url": "https://support.google.com/docs/answer/16722399?hl=ko"
+            }
+          ]
+        },
+        {
+          "id": "email-attachment-permissions-account",
+          "type": "paragraph",
+          "text": "회사 메일로 공유했는데 상대 브라우저가 개인 Google 계정으로 로그인돼 있으면 권한 오류가 날 수 있어요. Google은 여러 계정을 쓰는 경우 파일을 공유받은 계정인지 확인하도록 안내해요. 상대가 액세스를 요청했더라도 표시된 요청자 주소를 확인하고 승인하세요. 요청이 왔다는 이유만으로 처음 보는 계정에 권한을 주지는 마세요.",
+          "links": [
+            {
+              "title": "Google Docs 편집기 고객센터: 파일 액세스와 계정 확인",
+              "url": "https://support.google.com/docs/answer/16722399?hl=ko"
+            }
+          ]
+        },
+        {
+          "id": "email-attachment-permissions-outlook",
+          "type": "paragraph",
+          "text": "Outlook에서 OneDrive·SharePoint 파일을 보낼 때도 링크의 액세스 관리 또는 권한 메뉴를 확인해요. 사본으로 첨부할 수 있는 경우도 있지만, 회사가 외부 공유를 제한한 파일을 사본으로 바꿔 보내면 된다고 단정해서는 안 돼요. 조직 정책에 막힌 경우에는 담당자에게 허용된 전달 방법을 확인해요.",
+          "links": [
+            {
+              "title": "Microsoft 지원: Outlook 첨부파일과 OneDrive 링크 보내기",
+              "url": "https://support.microsoft.com/en-us/outlook/mail/add-pictures-or-attach-files-to-emails-in-outlook"
+            }
+          ]
+        },
+        {
+          "id": "email-attachment-permissions-wide",
+          "type": "callout",
+          "text": "Google 안내에서 이 설정은 메일을 전달받은 사람도 링크로 접근할 수 있는 방식이에요. 업무자료를 누구에게 보여 줄지 먼저 정하고 필요한 사람에게만 공유하세요. 한 파일을 보내려다 폴더 전체를 열지 않도록 범위도 확인해요. 상위 폴더 권한이 파일에 이어지는 경우가 있으니, 공유 범위가 예상보다 넓다면 소유자나 관리자와 함께 정리해요.",
+          "title": "급해도 “링크가 있는 모든 사용자”부터 켜지 마세요",
+          "links": [
+            {
+              "title": "Google Gmail 고객센터: Drive 파일을 보내는 방식과 공유 설정",
+              "url": "https://support.google.com/mail/answer/2487407?hl=ko"
+            },
+            {
+              "title": "Google Drive 고객센터: 특정 사용자 공유와 권한",
+              "url": "https://support.google.com/drive/answer/2494822?hl=ko"
+            }
+          ]
+        },
+        {
+          "id": "email-attachment-download-heading",
+          "type": "heading",
+          "text": "4. 내려받은 파일이 안 열리면 형식과 오류를 확인해요"
+        },
+        {
+          "id": "email-attachment-download-steps",
+          "type": "steps",
+          "items": [
+            "보낸편지함의 첨부파일을 회사가 허용하는 위치에 내려받아 직접 열어 봐요. 원본만 열어 보고 첨부된 파일도 같을 것이라고 넘기지 마세요.",
+            "상대에게 필요한 형식과 지금 보낸 확장자가 맞는지 확인해요. 확장자는 파일 이름 끝의 .pdf, .docx 같은 부분이에요. 이름 끝만 바꾸는 것은 형식 변환이 아니에요.",
+            "미리보기만 안 되는지, 내려받은 뒤 해당 앱에서도 안 되는지 구분해요. 오류 문구와 사용하는 앱 이름을 확인하면 담당자가 원인을 찾기 쉬워요.",
+            "읽기용 자료라면 허용되는 경우 PDF 사본을 새로 만들 수 있어요. 변환한 뒤 글자, 표, 페이지 누락을 확인하세요. 수식이나 편집이 필요한 업무는 PDF만으로 해결되지 않을 수 있어요."
+          ]
+        },
+        {
+          "id": "email-attachment-download-security",
+          "type": "paragraph",
+          "text": "보안상 차단되었다는 메시지라면 확장자를 속이거나 보안 기능을 끄라고 안내하지 마세요. Gmail은 실행파일 등 일부 유형의 첨부를 제한해요. 업무상 꼭 필요한 파일이라면 오류 문구와 파일 종류를 사내 지원 담당자에게 전달하고 승인된 방법을 사용해요. 무료 변환 사이트에 회사자료를 올리는 것도 별도 외부 전송이라는 점을 기억하세요.",
+          "links": [
+            {
+              "title": "Google Gmail 고객센터: 첨부파일 크기와 전송 방식",
+              "url": "https://support.google.com/mail/answer/6584?hl=ko"
+            }
+          ]
+        },
+        {
+          "id": "email-attachment-version-heading",
+          "type": "heading",
+          "text": "5. 파일명보다 안의 내용으로 버전을 확인해요"
+        },
+        {
+          "id": "email-attachment-version-check",
+          "type": "paragraph",
+          "text": "“최종”, “진짜최종”이라는 이름만으로는 어떤 수정이 들어갔는지 알기 어려워요. 예를 들어 ‘행사안내_20261009_v02_검토용.pdf’처럼 날짜와 버전을 넣되, 날짜가 행사일인지 작성일인지 팀 안에서 정해요. 파일명은 찾기 위한 표시이고 최종 확인은 본문에서 해요."
+        },
+        {
+          "id": "email-attachment-version-list",
+          "type": "checklist",
+          "items": [
+            "최근 요청받은 수정 한두 곳이 실제 첨부파일 또는 링크 문서에 반영돼 있어요.",
+            "문서 첫 페이지, 표 안의 날짜, 파일명에 적힌 기준이 서로 맞아요.",
+            "검토용과 외부 배포용을 구분했고, 아직 승인받지 않은 자료를 확정본처럼 표시하지 않았어요.",
+            "메일 본문에 적힌 파일 수와 실제 첨부 수가 같고, 여러 파일 중 사용할 버전이 분명해요."
+          ]
+        },
+        {
+          "id": "email-attachment-privacy-heading",
+          "type": "heading",
+          "text": "6. 받을 필요 없는 정보가 들어 있지 않은지 봐요"
+        },
+        {
+          "id": "email-attachment-privacy-check",
+          "type": "paragraph",
+          "text": "첨부파일을 열었을 때 바로 보이는 본문만 확인하지 마세요. 다른 고객의 연락처, 주민등록번호, 계좌정보, 내부 검토 의견처럼 이번 수신자가 받을 필요 없는 내용이 섞였는지 살펴요. 화면에서 행이나 시트를 숨겨 둔 상태를 정보 삭제로 생각하지 말고, 배포에 필요한 내용만 담긴 사본을 준비하세요."
+        },
+        {
+          "id": "email-attachment-privacy-inspector",
+          "type": "paragraph",
+          "text": "Microsoft의 문서 검사 기능은 댓글, 수정 흔적, 문서 속성 등 숨은 정보를 찾는 데 도움이 돼요. 지원되는 데스크톱 Office에서는 파일의 정보 메뉴에서 문제 확인, 문서 검사를 찾아볼 수 있어요. 제거한 내용을 복구하지 못할 수 있으므로 원본을 보관하고 사본에서 검사해요. 기능이 모든 정보를 찾아 없애 주는 것은 아니니 결과를 검토하고 배포본을 다시 열어 확인하세요.",
+          "links": [
+            {
+              "title": "Microsoft 지원: 문서 검사로 숨은 데이터와 개인정보 확인하기",
+              "url": "https://support.microsoft.com/en-gb/office/collab-files/remove-hidden-data-and-personal-information-by-inspecting-documents-presentations-or-workbooks?nochrome=true"
+            }
+          ]
+        },
+        {
+          "id": "email-attachment-privacy-boundary",
+          "type": "paragraph",
+          "text": "안전한 공유 권한을 설정했더라도 잘못된 내용이 담긴 파일을 보내면 문제는 남아요. 반대로 내용이 정리됐어도 수신자나 공유 범위를 잘못 잡으면 노출될 수 있어요. 자료 내용, 받는 사람, 접근 범위를 각각 확인하는 습관을 들여요."
+        },
+        {
+          "id": "email-attachment-repair-heading",
+          "type": "heading",
+          "text": "7. 다시 보낼 때는 바뀐 점과 사용할 자료를 적어요"
+        },
+        {
+          "id": "email-attachment-repair-intro",
+          "type": "paragraph",
+          "text": "문제를 고쳤다면 기존 대화 흐름에서 필요한 사람에게 알려요. 이유를 길게 설명하기보다 어떤 조치를 했고, 어느 파일을 열면 되고, 추가 확인이 필요한지를 적으면 돼요. 아래 문장은 실제 상황에 맞게 바꿔 쓰는 예시예요. 아직 하지 않은 조치를 완료했다고 적지 마세요."
+        },
+        {
+          "id": "email-attachment-repair-permission",
+          "type": "callout",
+          "text": "“공유 대상에서 수신자 주소가 빠져 있어 해당 주소에 보기 권한을 추가했습니다. 기존 링크를 공유받은 계정으로 다시 열어 주세요. 같은 오류가 나오면 표시되는 오류 문구를 알려 주시면 확인하겠습니다.”",
+          "title": "공유 권한을 수정한 경우"
+        },
+        {
+          "id": "email-attachment-repair-missing",
+          "type": "callout",
+          "text": "“앞선 메일에 첨부가 누락되어 행사 안내 PDF 1개를 다시 보냅니다. 이번 메일의 ‘행사안내_20261009_v02_검토용.pdf’를 확인해 주세요. 번거롭게 해 드려 죄송합니다.”",
+          "title": "첨부가 빠진 경우"
+        },
+        {
+          "id": "email-attachment-repair-version",
+          "type": "callout",
+          "text": "“앞서 보낸 파일에서 장소 변경사항이 빠진 것을 확인해 수정본을 다시 보냅니다. 이번 첨부파일의 2쪽에 변경사항을 반영했습니다. 이전 첨부파일 대신 이번 파일을 기준으로 검토해 주세요.”",
+          "title": "예전 버전을 보낸 경우"
+        },
+        {
+          "id": "email-attachment-repair-open",
+          "type": "paragraph",
+          "text": "권한을 바꾼 것과 상대가 실제로 열어 본 것은 다른 상태예요. “이제 무조건 됩니다”라고 쓰기보다 내가 확인한 조치를 말해요. 검토나 제출 마감이 걸린 파일이라면 수신자가 열 수 있는지까지 확인하고, 장애로 일정이 달라질 수 있으면 담당자에게 현재 상태를 알려요."
+        },
+        {
+          "id": "email-attachment-incident-heading",
+          "type": "heading",
+          "text": "8. 잘못된 사람에게 보냈다면 일반 재발송과 다르게 처리해요"
+        },
+        {
+          "id": "email-attachment-incident-action",
+          "type": "paragraph",
+          "text": "비공개 정보가 포함된 자료를 엉뚱한 사람에게 보냈다면 조용히 수정본만 보내고 끝내지 마세요. 회사의 사고 보고 절차에 따라 담당자에게 즉시 알리고, 보낸 시각·수신자·파일·현재 공유 상태를 정리해요. 공유 링크의 접근 차단 등 가능한 조치는 권한과 사내 절차에 따라 진행하고 확인된 결과를 남겨요."
+        },
+        {
+          "id": "email-attachment-incident-limits",
+          "type": "paragraph",
+          "text": "링크 권한을 없애더라도 이미 내려받거나 복사한 자료까지 회수되는 것은 아니에요. 일반 첨부파일도 내 보낸편지함에서 지웠다고 상대의 사본이 사라졌다고 볼 수 없어요. “삭제했으니 괜찮다”고 단정하거나 기록을 없애지 말고, 수신자에게 보낼 정정·삭제 요청은 담당자와 내용 및 절차를 맞춰요.",
+          "links": [
+            {
+              "title": "Google Drive 고객센터: 공유 중지와 복사 제한의 범위",
+              "url": "https://support.google.com/drive/answer/2494893?hl=ko"
+            }
+          ]
+        },
+        {
+          "id": "email-attachment-final-heading",
+          "type": "heading",
+          "text": "마지막으로 보낸 메일 기준으로 확인해요"
+        },
+        {
+          "id": "email-attachment-final-check",
+          "type": "checklist",
+          "items": [
+            "첨부 사본과 공유 링크 중 무엇을 보냈는지 확인했어요.",
+            "실제 수신자 주소와 권한이 맞고, 필요한 수준으로만 공유했어요.",
+            "메일에 들어간 파일을 열어 내용·버전·개인정보를 확인했어요.",
+            "재발송했다면 바뀐 점과 이제 사용할 자료를 분명히 적었어요.",
+            "열람 문제와 별개로 정보 노출이 있었다면 정해진 보고 절차를 따랐어요."
+          ]
+        },
+        {
+          "id": "email-attachment-finish",
+          "type": "paragraph",
+          "text": "파일 전달은 보내기 버튼을 누른 뒤에도 한 번 더 확인할 일이 있어요. “내가 보냈다”에서 한 걸음 더 가서, 필요한 사람이 허용된 방식으로 맞는 자료를 사용할 수 있는지 확인해 보세요. 다음에 같은 문제가 생기면 보낸편지함, 전달 방식, 계정과 권한, 실제 파일 내용 순서로 돌아오면 돼요."
+        }
+      ]
+    },
+    {
+      "id": "job-calendar-invitation-check",
+      "categoryId": "firstjob",
+      "title": "회의 초대를 받았을 때, 참석 버튼 전에 확인할 것들",
+      "summary": "날짜와 시간대, 회의 장소부터 참석 응답·대안 제안·반복 일정까지 순서대로 확인해요.",
+      "readingMinutes": 8,
+      "tags": [
+        "첫직장",
+        "회의초대",
+        "캘린더",
+        "일정관리"
+      ],
+      "updatedAt": "2026-10-09",
+      "verifiedAt": "2026-10-09",
+      "sources": [
+        {
+          "title": "Google Calendar 고객센터 · 일정 초대에 응답하기",
+          "url": "https://support.google.com/calendar/answer/37135?hl=ko"
+        },
+        {
+          "title": "Google Calendar 고객센터 · 시간대별 일정 표시(영문)",
+          "url": "https://support.google.com/calendar/answer/37064?hl=en"
+        },
+        {
+          "title": "Microsoft 지원 · Outlook for Mac의 초대 응답(영문)",
+          "url": "https://support.microsoft.com/en-us/accessibility/outlook/mac/use-a-screen-reader-to-respond-to-meeting-requests-in-outlook-for-mac"
+        },
+        {
+          "title": "Microsoft 지원 · Outlook의 새 회의 시간 제안(영문)",
+          "url": "https://support.microsoft.com/en-gb/outlook/calendar/propose-a-new-meeting-time-in-outlook"
+        },
+        {
+          "title": "Google Workspace 학습 센터 · 참석자의 제안과 주최자의 검토",
+          "url": "https://support.google.com/a/users/answer/9283119?hl=ko"
+        },
+        {
+          "title": "Microsoft 지원 · Outlook 일정 수정과 반복 일정 범위(영문)",
+          "url": "https://support.microsoft.com/en-us/outlook/calendar/change-an-appointment-meeting-or-event-in-outlook"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "invitation-start",
+          "type": "paragraph",
+          "text": "업무 캘린더에 회의 초대가 들어왔어요. 제목을 읽고 바로 참석을 누르기 전에, 내가 그 시간에 그 방식으로 참여할 수 있는지 확인해 보세요. 이 글은 초대를 받은 사람이 날짜와 장소를 확인하고, 참석 여부를 답하고, 변경된 일정까지 다시 보는 순서예요. 대화문과 일정은 모두 가상 예시예요."
+        },
+        {
+          "id": "invitation-context-heading",
+          "type": "heading",
+          "text": "1. 누가 보냈고, 어떤 자리인지 확인해요"
+        },
+        {
+          "id": "invitation-context",
+          "type": "paragraph",
+          "text": "초대의 주최자, 회의 제목, 설명, 초대받은 계정을 읽어요. 회사 계정으로 온 회의를 개인 계정에서 잘못 답하지 않도록 현재 로그인 계정도 보세요. 모르는 발신자라면 캘린더에 보인다는 이유만으로 링크나 첨부파일을 열지 말고, 회사에서 확인된 연락 경로로 실제 초대인지 확인해요."
+        },
+        {
+          "id": "invitation-role",
+          "type": "paragraph",
+          "text": "내가 발표할 사람인지, 의견을 줄 사람인지, 진행 상황을 듣는 사람인지 설명에 있는지 봐요. 불명확하면 “이번 회의에서 제가 준비할 자료나 설명할 항목이 있을까요?”라고 주최자에게 물어요. 선택 참석 표시가 있어도 이번 안건에서 내 역할이 필요한지 애매하면 확인하세요. 직급만으로 참석 필요성을 추측할 필요는 없어요."
+        },
+        {
+          "id": "invitation-time-heading",
+          "type": "heading",
+          "text": "2. 날짜·시작·종료·시간대를 한 줄로 읽어요"
+        },
+        {
+          "id": "invitation-time-check",
+          "type": "list",
+          "items": [
+            "날짜: “다음 화요일” 대신 달력의 연도·월·일을 봐요. 초대 메일 본문과 일정 칸의 날짜가 다르면 주최자에게 확인해요.",
+            "시작과 종료: 시작 시각뿐 아니라 끝나는 시각도 보고, 앞뒤 일정과 이동·접속 준비 시간을 비교해요.",
+            "시간대: 해외 참석자나 출장 일정이 있다면 내 화면이 어느 지역 시간인지 확인해요. 한국 시간이라면 KST 또는 Asia/Seoul 같은 표기를 함께 살펴봐요."
+          ]
+        },
+        {
+          "id": "invitation-timezone",
+          "type": "paragraph",
+          "text": "Google Calendar는 같은 회의를 각 참석자의 현지 시간대로 표시한다고 안내해요. 상대가 말한 오전 9시와 내 달력의 오전 9시가 같은 순간인지 확인해야 해요. 다른 지역의 일광 절약 시간 때문에 시차가 달라질 수도 있으니, 기억한 시차를 고정해서 더하거나 빼기보다 해당 날짜의 일정과 시간대 설정을 대조하세요.",
+          "links": [
+            {
+              "title": "Google Calendar 고객센터 · 시간대별 일정 표시(영문)",
+              "url": "https://support.google.com/calendar/answer/37064?hl=en"
+            }
+          ]
+        },
+        {
+          "id": "invitation-time-example",
+          "type": "callout",
+          "text": "가상 확인 문장: “초대 일정은 2026년 10월 13일 14:00~14:30, 한국 시간(KST)으로 이해했습니다. 메일 본문에는 15시로 적혀 있는데 어느 시간이 맞을까요?” 모순이 있다면 편한 쪽으로 골라 참석을 확정하지 않아요.",
+          "title": "시간이 다르게 적혀 있다면"
+        },
+        {
+          "id": "invitation-location-heading",
+          "type": "heading",
+          "text": "3. 회의실과 접속 링크를 함께 봐요"
+        },
+        {
+          "id": "invitation-location",
+          "type": "paragraph",
+          "text": "대면 회의라면 건물·층·회의실과 방문 절차를 확인해요. 온라인이면 이번 회의의 접속 링크, 사용할 앱, 필요한 계정이 있는지 봐요. 회의실과 화상 링크가 함께 있어도 자유롭게 원격 참석해도 된다는 뜻인지는 별도 확인이 필요해요. “이번 회의는 회의실 참석이 필요한가요, 원격으로 참여해도 될까요?”라고 물을 수 있어요."
+        },
+        {
+          "id": "invitation-location-update",
+          "type": "paragraph",
+          "text": "지난번 회의 링크를 즐겨찾기해 두었더라도 이번 초대의 링크와 같다고 가정하지 마세요. 링크나 장소가 비어 있으면 “10월 13일 회의의 접속 링크를 확인 부탁드립니다”처럼 날짜와 빠진 항목을 짚어요. 회의 당일에는 가장 최근에 갱신된 일정의 장소·링크를 다시 보세요."
+        },
+        {
+          "id": "invitation-rsvp-heading",
+          "type": "heading",
+          "text": "4. 참석·미정·불참 중 현재 상태를 답해요"
+        },
+        {
+          "id": "invitation-rsvp-intro",
+          "type": "paragraph",
+          "text": "Google Calendar에는 예·아니요·미정이 있고, Outlook에서는 수락·미정·거절 또는 Accept·Tentative·Decline 같은 표시를 볼 수 있어요. 앱·언어·버전에 따라 이름과 위치가 달라요. 아래는 참석 상태를 정리하는 실용적인 기준이에요.",
+          "links": [
+            {
+              "title": "Google Calendar 고객센터 · 일정 초대에 응답하기",
+              "url": "https://support.google.com/calendar/answer/37135?hl=ko"
+            },
+            {
+              "title": "Microsoft 지원 · Outlook for Mac의 초대 응답(영문)",
+              "url": "https://support.microsoft.com/en-us/accessibility/outlook/mac/use-a-screen-reader-to-respond-to-meeting-requests-in-outlook-for-mac"
+            }
+          ]
+        },
+        {
+          "id": "invitation-rsvp-choices",
+          "type": "list",
+          "items": [
+            "참석: 시간과 참여 방식을 확인했고 참석할 수 있을 때 선택해요.",
+            "미정: 다른 일정 조정 등 확인이 남아 있을 때 사용해요. 무엇이 미정인지와 언제 다시 답할 수 있는지 짧게 알려 주면 준비에 도움이 돼요.",
+            "불참: 참석할 수 없을 때 선택해요. 내가 꼭 필요한 안건이라면 시간 조정이나 사전 의견 전달이 가능한지도 함께 확인해요."
+          ]
+        },
+        {
+          "id": "invitation-rsvp-example",
+          "type": "paragraph",
+          "text": "“앞 일정의 종료 시각을 확인 중이라 우선 미정으로 답했습니다. 오늘 16시까지 참석 여부를 다시 알려드리겠습니다.”처럼 실제 지킬 수 있는 확인 시점을 적어요. 확인되면 응답도 바꾸세요. 모든 회사에 통하는 ‘몇 분 안에 수락’ 규칙은 없으니, 초대에 적힌 회신 기한과 팀의 운영 방식을 우선해요."
+        },
+        {
+          "id": "invitation-proposal-heading",
+          "type": "heading",
+          "text": "5. 시간이 안 맞으면 가능한 대안을 제안해요"
+        },
+        {
+          "id": "invitation-proposal-example",
+          "type": "paragraph",
+          "text": "가상 예문: “10월 13일 14:00~14:30에는 기존 일정이 있어 참석이 어렵습니다. 같은 날 15:00~15:30 또는 10월 14일 10:00~10:30, 모두 한국 시간(KST)에는 가능합니다. 조정 가능한 시간이 있을까요?” 날짜·길이·시간대를 붙이면 ‘오후에 가능해요’보다 검토하기 쉬워요."
+        },
+        {
+          "id": "invitation-proposal-tools",
+          "type": "paragraph",
+          "text": "Google Calendar 컴퓨터 화면에서는 일정의 ‘미정’ 옆 메뉴에서 새로운 시간을 제안할 수 있어요. 다만 종일 일정과 참석자 200명 초과 일정은 대상이 아니에요. Microsoft의 Windows용 Outlook 안내에서는 반복 모임의 새 시간 제안을 지원하지 않으며, 주최자가 제안을 제한할 수도 있다고 설명해요. 새 Outlook for Windows에서는 직장·학교 계정만 이 기능을 사용할 수 있고, outlook.com·hotmail.com·live.com·msn.com 개인 계정과 다른 제공업체의 IMAP·POP 계정은 지원하지 않는다고 안내해요. IMAP·POP은 메일 앱이 외부 메일함에 연결하는 방식이에요. 버튼이 보이지 않으면 회사에서 쓰는 연락 경로로 후보 시간을 전달하세요.",
+          "links": [
+            {
+              "title": "Google Calendar 고객센터 · 일정 초대에 응답하기",
+              "url": "https://support.google.com/calendar/answer/37135?hl=ko"
+            },
+            {
+              "title": "Microsoft 지원 · Outlook의 새 회의 시간 제안(영문)",
+              "url": "https://support.microsoft.com/en-gb/outlook/calendar/propose-a-new-meeting-time-in-outlook"
+            }
+          ]
+        },
+        {
+          "id": "invitation-proposal-confirm",
+          "type": "callout",
+          "text": "새 시간을 제안했다고 회의가 바로 옮겨지는 것은 아니에요. 주최자가 수락하고 일정에 반영했는지 확인하세요. 답이 없으면 변경을 확정한 것으로 생각하지 말고, 기존 시간에 참석할 수 없는 상태도 분명히 알려 주세요.",
+          "title": "제안 뒤에는 변경된 초대를 확인해요",
+          "links": [
+            {
+              "title": "Microsoft 지원 · Outlook의 새 회의 시간 제안(영문)",
+              "url": "https://support.microsoft.com/en-gb/outlook/calendar/propose-a-new-meeting-time-in-outlook"
+            },
+            {
+              "title": "Google Workspace 학습 센터 · 참석자의 제안과 주최자의 검토",
+              "url": "https://support.google.com/a/users/answer/9283119?hl=ko"
+            }
+          ]
+        },
+        {
+          "id": "invitation-owner-heading",
+          "type": "heading",
+          "text": "6. 주최자의 수정과 참석자의 응답을 구분해요"
+        },
+        {
+          "id": "invitation-owner",
+          "type": "paragraph",
+          "text": "보통 참석자는 참석 여부와 변경 요청을 전달하고 주최자가 전체 일정을 조정해요. Outlook은 다른 사람이 초대한 회의의 세부정보를 참석자가 바꿀 수 없다고 안내해요. 내 달력에서 시간만 끌어 옮겨도 전체 회의 시간이 바뀌는 것으로 생각하면 안 돼요. Google Calendar는 주최자가 일정 수정 권한을 준 경우 참석자도 직접 바꿀 수 있어요. 권한이 있더라도 합의한 시간과 변경 범위를 먼저 맞춰요.",
+          "links": [
+            {
+              "title": "Google Workspace 학습 센터 · 참석자의 제안과 주최자의 검토",
+              "url": "https://support.google.com/a/users/answer/9283119?hl=ko"
+            },
+            {
+              "title": "Microsoft 지원 · Outlook 일정 수정과 반복 일정 범위(영문)",
+              "url": "https://support.microsoft.com/en-us/outlook/calendar/change-an-appointment-meeting-or-event-in-outlook"
+            }
+          ]
+        },
+        {
+          "id": "invitation-repeat",
+          "type": "paragraph",
+          "text": "매주 반복되는 회의는 이번 한 번, 이후 일정, 전체 시리즈 중 무엇이 바뀌는지 확인해요. Outlook도 버전에 따라 반복 일정의 수정 선택지가 달라요. 예를 들어 “10월 13일 회의만 15시로 변경”이라는 안내를 받았다면 다음 주 일정까지 15시라고 기억하지 말고 각각 열어 보세요. 주최자로 수정할 때는 저장·보내기 전에 적용 범위를 읽어요.",
+          "links": [
+            {
+              "title": "Microsoft 지원 · Outlook 일정 수정과 반복 일정 범위(영문)",
+              "url": "https://support.microsoft.com/en-us/outlook/calendar/change-an-appointment-meeting-or-event-in-outlook"
+            }
+          ]
+        },
+        {
+          "id": "invitation-repeat-question",
+          "type": "paragraph",
+          "text": "이번 한 번만 불참하려는데 응답 화면의 적용 범위가 불분명하다면 전체 반복 초대를 거절하기 전에 확인해요. “10월 13일 한 회차만 참석이 어렵고, 이후 일정에는 참석 예정입니다”라고 대상 날짜를 적으면 오해를 줄일 수 있어요."
+        },
+        {
+          "id": "invitation-privacy-heading",
+          "type": "heading",
+          "text": "7. 짧게 설명하고, 누가 읽는지도 확인해요"
+        },
+        {
+          "id": "invitation-privacy",
+          "type": "paragraph",
+          "text": "Google Calendar의 응답에 붙이는 메모는 모든 초대 대상자에게 보인다고 안내돼 있어요. 불참 사유에 병원 진료 내용, 가족 사정, 다른 고객의 비공개 정보를 자세히 적지 마세요. “기존 일정으로 참석이 어렵습니다” 정도로 필요한 사실만 쓰고, 추가 설명이 꼭 필요하면 적절한 비공개 연락 경로를 선택해요.",
+          "links": [
+            {
+              "title": "Google Calendar 고객센터 · 일정 초대에 응답하기",
+              "url": "https://support.google.com/calendar/answer/37135?hl=ko"
+            }
+          ]
+        },
+        {
+          "id": "invitation-final-heading",
+          "type": "heading",
+          "text": "답한 뒤 마지막으로 확인할 다섯 가지"
+        },
+        {
+          "id": "invitation-final-check",
+          "type": "checklist",
+          "items": [
+            "올바른 계정에서 해당 회의의 참석 상태를 답했어요.",
+            "날짜·시작·종료 시각과 시간대를 확인했어요.",
+            "장소나 접속 링크, 준비할 내용을 확인했어요.",
+            "변경을 제안했다면 주최자의 답과 갱신된 일정을 확인했어요.",
+            "반복 일정의 한 회차만 바뀌는지 살피고, 필요한 개인 알림을 맞췄어요."
+          ]
+        },
+        {
+          "id": "invitation-verification",
+          "type": "paragraph",
+          "text": "출처 확인일: 2026년 10월 9일(한국 시간). Google·Microsoft의 공식 도움말을 확인했어요. 확인 순서와 예문은 하루편이 구성한 실용 안내예요. 캘린더 기능은 계정·기기·버전·조직 설정에 따라 달라질 수 있으니 실제 화면과 소속 조직의 안내를 함께 확인하세요."
         }
       ]
     }
